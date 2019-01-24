@@ -4,15 +4,27 @@ body {
     background-repeat: no-repeat;
 }
 
+#cardImage {
+    height: 200px;
+    overflow: hidden;
+}
+
 #carouselExampleIndicators {
     width: 400px;
+    padding-top: 250px;
     margin: auto;
     padding-bottom: 50px;
-    /*float: left;*/
 }
 
 .carousel-item {
     height: 400px;
+    
+}
+
+#card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 18rem; 
+    margin: auto; 
 }
 
 #welcomeLink {
@@ -22,23 +34,27 @@ body {
 #div1 {
     padding: 25px 25px;
     white-space: nowrap;
+    position: fixed;
 }
 
 #ryan {
     display: inline;
-    vertical-align: bottom;
+    vertical-align: top;
     white-space: nowrap;
     font-family: 'Noto Sans TC';
     font-weight: 300;
     font-size: 40pt;
     text-transform: lowercase;
-    /*float: right;*/
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
 }
 
 #headShot {
     width: 150px;
     height: 150px;
-    position: relative;
     overflow: hidden;
     border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
+
