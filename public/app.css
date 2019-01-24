@@ -35,6 +35,8 @@ body {
     padding: 25px 25px;
     white-space: nowrap;
     position: fixed;
+    z-index: 1;
+    
 }
 
 #ryan {
