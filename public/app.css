@@ -28,7 +28,11 @@ body {
 
 .carousel-item {
     height: 400px;
-    
+}
+
+#carouselIcon {
+    /*outline: 2px solid #666666;*/
+    background-color: #bcbcbc;
 }
 
 #card{
@@ -51,7 +55,7 @@ body {
     white-space: nowrap;
     /*position: fixed;*/
     z-index: 1;
-    max-width: 513px;
+    max-width: 400px;
     width: 80%;
     height: 200px;
 }
@@ -61,20 +65,23 @@ body {
     vertical-align: top;
     white-space: nowrap;
     font-family: 'Noto Sans TC';
+    /*font-family: 'Major Mono Display';*/
     font-weight: 400;
-    font-size: 8vmin;
+    font-size: 6vmin;
     text-transform: lowercase;
     color: black;
     /*text-shadow: 2px 2px 8px #000000;*/
     /*width: 100%;*/
-    
 }
 
-#projects {
-    bottom: 0;
-    position: absolute;
-    color: #00273f;
-    
+/*#projects {*/
+/*    bottom: 0;*/
+/*    position: absolute;*/
+/*    color: #00273f;*/
+/*}*/
+
+#recent {
+    color: #666666;
 }
 
 #headShot {
@@ -88,9 +95,10 @@ body {
 }
 
 #info {
+    display: inline;
     float: right;
-    height: 150px;
-    position: relative;
+    /*height: 50px;*/
+    position: absolute;
     
 }
 
