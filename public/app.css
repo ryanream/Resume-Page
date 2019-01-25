@@ -26,12 +26,7 @@ body {
     padding-bottom: 50px;
 }
 
-.carousel-item {
-    height: 400px;
-}
-
 #carouselIcon {
-    /*outline: 2px solid #666666;*/
     background-color: #bcbcbc;
 }
 
@@ -92,6 +87,7 @@ body {
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 #info {
@@ -103,7 +99,12 @@ body {
 }
 
 #blueButtons {
-    margin-top: 25px;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+#social {
+    float: right;
 }
 
 /*icons*/
