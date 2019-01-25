@@ -1,10 +1,18 @@
 body {
-    background-image: url(http://blog.hostbaby.com/wp-content/uploads/2014/03/PaintSquares_1400x900-1024x658.jpg);
-    background-size: 110% 100%;
+    /*background-image: url(http://blog.hostbaby.com/wp-content/uploads/2014/03/PaintSquares_1400x900-1024x658.jpg);*/
+    /*background-image: url(http://blog.hostbaby.com/wp-content/uploads/2014/03/Trees_1400x900-1024x658.png);*/
+    /*blue heart beat*/
+    background-image: url(http://iatse479.org/wp-content/uploads/2017/08/heartbeat-001.png);
+    /*grackle*/
+    /*background-image: url(http://blog.bohanart.com/wp-content/uploads//2013/03/BTgrackle.gif);*/
+    /*b/w heart beat*/
+    /*background-image: url(http://static1.squarespace.com/static/5a7b1180f09ca4e43d8a7319/t/5a8a0d6871c10b5845fccc82/1528592027544/?format=1500w);*/
+    background-size: 125% 100%;
     background-repeat: no-repeat;
     overflow: auto;
     overflow-x: hidden;
     width: 100%;
+    background-attachment: fixed;
 }
 
 #cardImage {
@@ -13,7 +21,7 @@ body {
 
 #carouselExampleIndicators {
     width: 400px;
-    padding-top: 200px;
+    /*padding-top: 100px;*/
     margin: auto;
     padding-bottom: 50px;
 }
@@ -41,23 +49,32 @@ body {
     padding-top: 25px;
     padding-left: 25px;
     white-space: nowrap;
-    position: fixed;
+    /*position: fixed;*/
     z-index: 1;
     max-width: 513px;
     width: 80%;
+    height: 200px;
 }
 
 #ryan {
-    display: inline;
+    /*display: inline;*/
     vertical-align: top;
     white-space: nowrap;
     font-family: 'Noto Sans TC';
-    font-weight: 300;
+    font-weight: 400;
     font-size: 8vmin;
     text-transform: lowercase;
-    color: white;
-    text-shadow: 2px 2px 8px #000000;
+    color: black;
+    /*text-shadow: 2px 2px 8px #000000;*/
     /*width: 100%;*/
+    
+}
+
+#projects {
+    bottom: 0;
+    position: absolute;
+    color: #00273f;
+    
 }
 
 #headShot {
@@ -67,7 +84,24 @@ body {
     max-height: 150px;
     overflow: hidden;
     border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
+#info {
+    float: right;
+    height: 150px;
+    position: relative;
+    
+}
+
+#blueButtons {
+    margin-top: 25px;
+}
+
+/*icons*/
+i {
+    padding: 5px;
+    font-size: 36pt;
+    color: #e3f1f9;
+    /*box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);*/
+}
