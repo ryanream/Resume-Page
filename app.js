@@ -9,8 +9,8 @@ app.get("/", function(req, res){
     res.render("home");
 });
 
-app.get("/welcome", function(req, res){
-    res.render("welcome");
+app.get("/projects", function(req, res){
+    res.render("projects");
 });
 
 app.listen(process.env.PORT, process.env.IP, function(){
