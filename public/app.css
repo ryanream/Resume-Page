@@ -82,6 +82,12 @@ body {
     text-transform: lowercase;
 }
 
+.jumboContainer {
+    padding-top: 15px;    
+}
+
+
+
 #blueButtons {
     /*margin-left: 15px;*/
     margin-right: 15px;
