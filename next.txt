@@ -7,5 +7,9 @@ done!! - Add nav bar to home and projects page.
 
 done!! - Create header and footer files, move navbar, script and style tags.
 
+done!! - Navbar collapse.
+
+- Set correct link to 'active' in navbar.
+
 - Add some javascript! Look for ideas in old projects.
 
