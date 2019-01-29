@@ -16,23 +16,22 @@
     <body>
 
         <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </div>
+            <!--<div class="dropdown">-->
+            <!--    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+            <!--        Contact-->
+            <!--    </button>-->
+            <!--    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">-->
+            <!--        <a class="dropdown-item" href="mailto:ryan.a.ream@gmail.com">ryan.a.ream@gmail.com</a>-->
+            <!--        <a class="dropdown-item" href="#">219.210.0751</a>-->
+            <!--    </div>-->
+            <!--</div>-->
                 <!--<a class="navbar-brand" href="#">ryan.a.ream@gmail.com</a>-->
-                <!--<button type="button" id="btnPopover" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="ryan.a.ream@gmail.com">Contact Ryan</button>-->
+                <button type="button" id="btnPopover" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="ryan.a.ream@gmail.com | 219.210.0751">Contact Ryan</button>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="nav navbar-nav ml-auto">
+                <ul class="nav navbar-nav">
                     <!--<li class="active"><a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a></li>-->
                     
                 <% if (theRoute === "home") { %>
@@ -42,6 +41,8 @@
                     <li><a class="nav-link" href="/">Home</a></li>
                     <li class="active"><a class="nav-link" href="projects">Projects</a></li>
                 <% } %>
+                </ul>
+                <ul class="nav navbar-nav ml-auto">
                     <li><a class="nav-link" href="https://github.com/ryanream">GitHub</a></li>
                     <li><a class="nav-link" href="https://drive.google.com/file/d/1wzQs1F5xGv0G3JEkMaAIFWNHCFPeKm-K/view?usp=sharing">Resumé</a> </li>
                 </ul>
