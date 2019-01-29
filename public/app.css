@@ -59,7 +59,8 @@ body {
 }
 
 .jumboContainer {
-    padding-top: 15px;    
+    padding-top: 15px;
+    padding-bottom: 75px;
 }
 
 #blueButtons {
@@ -76,5 +77,5 @@ body {
 
 i {
     font-size: 36pt;
-    color: #e3f1f9;
+    color: #e9ecef;
 }
