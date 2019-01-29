@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resume Projects</title>
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="app.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <!--Fonts and Icons-->
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <!--fix background coverage on mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+                <!--<a class="navbar-brand" href="#">ryan.a.ream@gmail.com</a>-->
+                <!--<button type="button" id="btnPopover" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="ryan.a.ream@gmail.com">Contact Ryan</button>-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="nav navbar-nav ml-auto">
+                    <!--<li class="active"><a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a></li>-->
+                    
+                <% if (theRoute === "home") { %>
+                    <li class="active"><a class="nav-link" href="/">Home</a></li>
+                    <li><a class="nav-link" href="projects">Projects</a></li>
+                <% } else if (theRoute === "projects") { %>
+                    <li><a class="nav-link" href="/">Home</a></li>
+                    <li class="active"><a class="nav-link" href="projects">Projects</a></li>
+                <% } %>
+                    <li><a class="nav-link" href="https://github.com/ryanream">GitHub</a></li>
+                    <li><a class="nav-link" href="https://drive.google.com/file/d/1wzQs1F5xGv0G3JEkMaAIFWNHCFPeKm-K/view?usp=sharing">Resumé</a> </li>
+                </ul>
+            </div>
+        </nav>
+        

@@ -13,3 +13,7 @@ done!! - Navbar collapse.
 
 - Add some javascript! Look for ideas in old projects.
 
+                <% if page === "projects") { %>
+                <%    var link = "projects"; %>
+                <% } %>
+                <% console.log("link = " + link); %>

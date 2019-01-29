@@ -1,16 +1,19 @@
 var express = require("express");
 var app     = express();
+var theRoute = "";
 
 app.use(express.static(__dirname + "/public"));
 app.set("view engine", "html");
 app.engine("html", require("ejs").renderFile);
 
 app.get("/", function(req, res){
-    res.render("home");
+    theRoute = "home";
+    res.render("home", {theRoute:theRoute});
 });
 
 app.get("/projects", function(req, res){
-    res.render("projects");
+    theRoute = "projects";
+    res.render("projects", {theRoute:theRoute});
 });
 
 app.listen(process.env.PORT, process.env.IP, function(){
