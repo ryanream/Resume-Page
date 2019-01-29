@@ -9,11 +9,8 @@ done!! - Create header and footer files, move navbar, script and style tags.
 
 done!! - Navbar collapse.
 
-- Set correct link to 'active' in navbar.
+done!! - Set correct link to 'active' in navbar.
 
-- Add some javascript! Look for ideas in old projects.
+- Add some javascript! Look for ideas in old projects. ***(ejs added to select 'active' link)***
 
-                <% if page === "projects") { %>
-                <%    var link = "projects"; %>
-                <% } %>
-                <% console.log("link = " + link); %>
+- More content?
