@@ -60,7 +60,7 @@ body {
 
 .jumboContainer {
     padding-top: 15px;
-    padding-bottom: 75px;
+    padding-bottom: 25px;
 }
 
 #blueButtons {
@@ -79,3 +79,18 @@ i {
     font-size: 36pt;
     color: #e9ecef;
 }
+
+#tabDiv {
+    margin: 25px auto;
+    margin-bottom: 50px;
+}
+
+.tab {
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.dogPics {
+    height: 100px;
+    width: 100px;
+}
+
