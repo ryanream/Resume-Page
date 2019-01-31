@@ -53,7 +53,7 @@ body {
     margin-bottom: 25px;
 }
 
-#headShot {
+.photo {
     border-radius: 15px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
@@ -89,8 +89,14 @@ i {
     background: rgba(255, 255, 255, 0.75);
 }
 
-.dogPics {
-    height: 100px;
-    width: 100px;
+#mya {
+    height: 200px;
+    width: 150px;
+    margin-left: 15px;
+}
+#ollie {
+    height: 214px;
+    width: 180px;
+    margin-bottom: 15px;
 }
 

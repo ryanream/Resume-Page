@@ -14,3 +14,7 @@ done!! - Set correct link to 'active' in navbar.
 - Add some javascript! Look for ideas in old projects. ***(ejs added to select 'active' link)***
 
 - More content?
+
+- Photo page (link in hobbies section as easter egg)
+    - This could potentially use js but time spent on more visible pages will be more valuable.
+    *** images not showing on mobile, possibly too large? ***
