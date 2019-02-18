@@ -18,3 +18,5 @@ done!! - Set correct link to 'active' in navbar.
 - Photo page (link in hobbies section as easter egg)
     - This could potentially use js but time spent on more visible pages will be more valuable.
     *** images not showing on mobile, possibly too large? ***
+    
+- Add an api, weather may be the easiest to start.

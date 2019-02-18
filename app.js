@@ -3,6 +3,7 @@ var app     = express();
 var theRoute = "";
 
 app.use(express.static(__dirname + "/public"));
+
 app.set("view engine", "html");
 app.engine("html", require("ejs").renderFile);
 
