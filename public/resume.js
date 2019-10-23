@@ -13,3 +13,58 @@ $('#sendMessage').on('click', function (event){
     var contents = $('#message-text').val();
     console.log(contents);
 });
+
+var link = anime ({
+   targets: '#blueButtons',
+    translateX: [
+        {value: -50, duration: 800},
+        {value: 0, duration: 500}
+    ],
+    rotate: {
+        value: '1turn',
+    },
+    easing: 'easeInOutQuad',
+    autoplay: true
+});
+//document.querySelector('.photo').onmouseover = link.play;
+
+
+// var git = anime ({
+//   targets: '.git',
+//   translateY: [
+//         {value: -150, duration: 800},
+//         {value: 0, duration: 500}
+//   ],
+//   translateX: [
+//         {value: -150, duration: 800},
+//         {value: 0, duration: 500}
+//   ],
+//   rotate: {
+//         value: '1turn',
+//   },
+//     easing: 'easeInOutQuad',
+//     autoplay: false,
+// });
+// document.querySelector('.photo').onmouseover = git.play, link.play;
+
+
+// var resume = anime ({
+//   targets: '.resume',
+//   translateY: [
+//         {value: -350, duration: 1000},
+//         {value: 0, duration: 750}
+//   ],
+//   translateX: [
+//         {value: -50, duration: 1000},
+//         {value: 0, duration: 750}
+//   ],
+//   rotate: {
+//         value: '2turn',
+//   },
+//     easing: 'easeInOutQuad',
+//     autoplay: false,
+
+// });
+//document.querySelector('.projectButton').onmouseover = resume.play;
+
+
