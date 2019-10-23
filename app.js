@@ -19,6 +19,12 @@ app.get("/projects", function(req, res){
     res.render("projects", {theRoute:theRoute});
 });
 
+// landing
+app.get("/landing", function(req, res){
+    theRoute = "landing";
+    res.render("landing");
+});
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("Resume server is up and running!")
 });
