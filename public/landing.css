@@ -54,14 +54,12 @@ body {
 .thanks {
   margin-top: 150px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
-  /*font-weight: 200;*/
+  font-family: 'Open Sans', sans-serif;
   font-size: 22;
   opacity: 0;
-  /*color: white;*/
 }
 
-/*    font-family: 'Courgette', cursive;                */
-/*    font-family: 'Gruppo', cursive;                 */
-/*    font-family: 'Cinzel Decorative', cursive;      */
+/*    font-family: 'Open Sans', sans-serif;               */
+/*    font-family: 'Gruppo', cursive;                     */
+/*    font-family: 'Cinzel Decorative', cursive;          */
 
