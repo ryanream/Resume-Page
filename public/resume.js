@@ -16,8 +16,8 @@ $('#sendMessage').on('click', function (event){
 
 var link = anime ({
    targets: '#blueButtons',
-    translateX: [
-        {value: -50, duration: 800},
+    translateY: [
+        {value: -100, duration: 800},
         {value: 0, duration: 500}
     ],
     rotate: {
