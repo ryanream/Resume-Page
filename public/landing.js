@@ -1,3 +1,5 @@
+// This code is from https://tobiasahlin.com/moving-letters/
+
 anime.timeline({loop: false})
   .add({
     delay: 750,
@@ -49,8 +51,8 @@ anime.timeline({loop: false})
   anime({
     targets: '.thanks',
     opacity: [0,1],
-    duration: 1000,
-    easing: 'easeOutExpo',
+    duration: 2000,
+    easing: 'linear',
     delay: 3000
   });
   
