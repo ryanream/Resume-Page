@@ -34,14 +34,14 @@
   transform-origin: 0.5 0;
 }
 
-.ml5 .ampersand {
-  font-family: Baskerville, "EB Garamond", serif;
-  font-style: italic;
-  font-weight: 400;
-  width: 1em;
-  margin-right: -0.1em;
-  margin-left: -0.1em;
-}
+/*.ml5 .ampersand {*/
+/*  font-family: Baskerville, "EB Garamond", serif;*/
+/*  font-style: italic;*/
+/*  font-weight: 400;*/
+/*  width: 1em;*/
+/*  margin-right: -0.1em;*/
+/*  margin-left: -0.1em;*/
+/*}*/
 
 .ml5 .letters {
   display: inline-block;
