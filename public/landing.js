@@ -3,7 +3,7 @@
 anime.timeline({loop: false})
   .add({
     delay: 750,
-    // stretch a single
+    // stretch a single line
     targets: '.ml5 .line',
     opacity: [0.5,1],
     scaleX: [0, 1],
@@ -54,5 +54,8 @@ anime.timeline({loop: false})
     duration: 2000,
     easing: 'linear',
     delay: 3000
-  });
-  
+  }).add({
+    targets: '.thanks',
+    
+  })
+   
