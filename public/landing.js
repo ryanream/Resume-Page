@@ -65,11 +65,10 @@ anime.timeline({loop: false})
     delay: 2000
   }).add({
     // fade in button
-    targets: '.button',
-    opacity: 1,
-    duration: 2000,
-    easing: 'easeInExpo'
-  });
+  targets: '.button',
+  translateY: { value: -325, duration: 2000, easing: 'easeInOutBack'},
+  opacity: {value: 1, duration: 1500, easing: 'linear'},
+});
   
 
    
