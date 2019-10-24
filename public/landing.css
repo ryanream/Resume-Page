@@ -58,82 +58,161 @@ body {
 }
 
 .thanks {
-  margin-top: 150px;
+  margin-top: 50px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 22;
   opacity: 0;
 }
 
-/*************  Button *************/
-/*#container {*/
+/*************  Spin Button *************/
+
+/*.button {*/
+/*  opacity: 0;*/
+/*  display: inline-flex;*/
+/*  height: 80px;*/
+/*  width: 300px;*/
+/*  border: 2px solid #757575;*/
+/*  margin: 0 auto;*/
+/*  color: #8c8c8c;*/
+/*  text-transform: uppercase;*/
+/*  text-decoration: none;*/
+/*  font-size: .8em;*/
+/*  letter-spacing: 1.5px;*/
+/*  align-items: center;*/
 /*  justify-content: center;*/
-/*  margin-left: auto;*/
+/*  overflow: hidden;*/
 /*}*/
 
-.button {
-  opacity: 0;
-  display: inline-flex;
-  height: 80px;
-  width: 300px;
-  border: 2px solid #757575;
-  margin: 0 auto;
-  color: #8c8c8c;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: .8em;
-  letter-spacing: 1.5px;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
+/*a {*/
+/*  color: #757575;*/
+/*  text-decoration: none;*/
+/*  letter-spacing: 1px;*/
+/*  font-size: 36px;*/
+/*}*/
 
-a {
-  color: #757575;
-  text-decoration: none;
-  letter-spacing: 1px;
-  font-size: 36px;
-}
+/*#button-6 {*/
 
-#button-6 {
+/*  position: relative;*/
+/*  overflow: hidden;*/
+/*  cursor: pointer;*/
+/*}*/
 
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-}
+/*#button-6 a {*/
+/*  position: relative;*/
+/*  transition: all .45s ease-Out;*/
+/*}*/
 
-#button-6 a {
-  position: relative;
-  transition: all .45s ease-Out;
-}
+/*#spin {*/
+/*  width: 0;*/
+/*  height: 0;*/
+/*  opacity: 0;*/
+/*  left: 70px;*/
+/*  top: 20px;*/
+/*  transform: rotate(0deg);*/
+/*  background: none;*/
+/*  position: absolute;*/
+/*  transition: all .5s ease-Out;*/
+/*}*/
 
-#spin {
-  width: 0;
-  height: 0;
-  opacity: 0;
-  left: 70px;
-  top: 20px;
-  transform: rotate(0deg);
-  background: none;
-  position: absolute;
-  transition: all .5s ease-Out;
-}
-
-#button-6:hover #spin {
-  width: 200%;
-  height: 500%;
-  opacity: 1;
-  left: -95px;
-  top: -95px;
+/*#button-6:hover #spin {*/
+/*  width: 200%;*/
+/*  height: 500%;*/
+/*  opacity: 1;*/
+/*  left: -95px;*/
+/*  top: -95px;*/
   /*background: #BFC0C0;*/
-  background: #444444;
-  transform: rotate(80deg);
+/*  background: #444444;*/
+/*  transform: rotate(80deg);*/
+/*}*/
+
+/*#button-6:hover a {*/
+  /*color: #2D3142;*/
+/*  color: #FFFFFF;*/
+/*}*/
+/*************  End Spin Button *************/
+
+
+/*************  Cross Button *************/
+.box-2 {
+	opacity: 0;
+	margin: auto;
+	width: 250px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3C3C3C;
 }
 
-#button-6:hover a {
-  /*color: #2D3142;*/
-  color: #FFFFFF;
+.btn {
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	cursor: pointer;
+	color: #FFF;
+	transition: all 0.5s;
+	position: relative;	
 }
+/***************************/
+/*.btn-two {*/
+/*	color: #FFF;*/
+/*	transition: all 0.5s;*/
+/*	position: relative;	*/
+/*}*/
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-two span {
+  font-family: 'Gruppo', cursive;
+  font-size: 32;
+	z-index: 2;	
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;	
+}
+.btn-two::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	/*border: 1px solid rgba(0,0,0,0.2);*/
+	/*background-color: rgba(0,0,0,0.1);*/
+	border: 1px solid rgba(255,255,255,0.2);
+	background-color: rgba(255,255,255,0.1);
+}
+.btn-two::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	/*border: 1px solid rgba(0,0,0,0.2);*/
+	/*background-color: rgba(0,0,0,0.1);*/
+	border: 1px solid rgba(255,255,255,0.2);
+	background-color: rgba(255,255,255,0.1);
+}
+.btn-two:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(0,0,0,.5);
+}
+.btn-two:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(0,0,0,.5);
+}
+
+/*End Cross Button*/
+
 
 /* button drop down tab from https://tobiasahlin.com/ */
 /*.grid-item-button-label {*/

@@ -64,11 +64,13 @@ anime.timeline({loop: false})
     easing: 'easeInExpo',
     delay: 2000
   }).add({
-    // fade in button
-  targets: '.button',
-  translateY: { value: -325, duration: 2000, easing: 'easeInOutBack'},
-  opacity: {value: 1, duration: 1500, easing: 'linear'},
+    // Fade in Cross Button
+    targets: '.box-2',
+    opacity: { value: 1, duration: 2500, easing: 'easeInOutQuad', delay:200}
+    // fade in Spin Button
+  // targets: '.button',
+  // translateY: { value: -325, duration: 2000, easing: 'easeInOutBack'},
+  // opacity: {value: 1, duration: 1500, easing: 'linear'},
 });
   
 
-   
