@@ -73,8 +73,8 @@ body {
 .button {
   opacity: 0;
   display: inline-flex;
-  height: 40px;
-  width: 150px;
+  height: 80px;
+  width: 300px;
   border: 2px solid #757575;
   margin: 0 auto;
   color: #8c8c8c;
@@ -91,6 +91,7 @@ a {
   color: #757575;
   text-decoration: none;
   letter-spacing: 1px;
+  font-size: 36px;
 }
 
 #button-6 {
@@ -121,8 +122,8 @@ a {
   width: 200%;
   height: 500%;
   opacity: 1;
-  left: -70px;
-  top: -70px;
+  left: -90px;
+  top: -50px;
   background: #BFC0C0;
   transform: rotate(80deg);
 }
