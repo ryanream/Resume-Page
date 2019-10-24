@@ -11,7 +11,7 @@ app.engine("html", require("ejs").renderFile);
 
 app.get("/", function(req, res){
     theRoute = "home";
-    res.render("home", {theRoute:theRoute});
+    res.render("landing", {theRoute:theRoute});
 });
 
 app.get("/projects", function(req, res){
@@ -20,9 +20,9 @@ app.get("/projects", function(req, res){
 });
 
 // landing
-app.get("/landing", function(req, res){
-    theRoute = "landing";
-    res.render("landing");
+app.get("/home", function(req, res){
+    theRoute = "home";
+    res.render("home", {theRoute:theRoute});
 });
 
 app.listen(process.env.PORT, process.env.IP, function(){

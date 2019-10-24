@@ -51,13 +51,93 @@ body {
   opacity: 0;
 }
 
+.button {
+  text-align: center;
+  margin: 50;
+}
+
 .thanks {
-  margin-top: 150px;
+  /*margin-top: 150px;*/
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 22;
   opacity: 0;
 }
+
+/*************  Button *************/
+/*#container {*/
+/*  justify-content: center;*/
+/*  margin-left: auto;*/
+/*}*/
+
+.button {
+  opacity: 0;
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #757575;
+  margin: 0 auto;
+  color: #8c8c8c;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: #757575;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#button-6 {
+
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-6 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#spin {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  left: 70px;
+  top: 20px;
+  transform: rotate(0deg);
+  background: none;
+  position: absolute;
+  transition: all .5s ease-Out;
+}
+
+#button-6:hover #spin {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  left: -70px;
+  top: -70px;
+  background: #BFC0C0;
+  transform: rotate(80deg);
+}
+
+#button-6:hover a {
+  color: #2D3142;
+}
+
+/* button drop down tab from https://tobiasahlin.com/ */
+/*.grid-item-button-label {*/
+/*    transform: translateY(-15px);*/
+/*    transition: transform 0.35s cubic-bezier(0.19, 1, 0.22, 1) 0.1s,opacity 0.35s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;*/
+/*    display: block;*/
+/*    opacity: 0;*/
+/*}*/
 
 /*    font-family: 'Open Sans', sans-serif;               */
 /*    font-family: 'Gruppo', cursive;                     */

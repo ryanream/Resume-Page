@@ -40,22 +40,36 @@ anime.timeline({loop: false})
     duration: 600,
     offset: '-=600'
   }).add({
-    // fade out
-    targets: '.ml5',
-    opacity: .3,
-    duration: 4000,
-    easing: "easeOutExpo",
-    delay: 1000
+    // fade Ryan down to 0.3
+    // targets: '.ml5',
+    // opacity: .3,
+    // duration: 4000,
+    // easing: "easeOutExpo",
+    // delay: 1000
   });
   
-  anime({
+  anime.timeline({loop:false})
+  .add({
+    // fade in thank you message 
     targets: '.thanks',
     opacity: [0,1],
     duration: 2000,
     easing: 'linear',
     delay: 3000
   }).add({
-    targets: '.thanks',
-    
-  })
+    // fade out 'Ryan' and 'thanks' 
+    targets: '.ml5, .thanks',
+    opacity: 0,
+    duration: 3000,
+    easing: 'easeInExpo',
+    delay: 2000
+  }).add({
+    // fade in button
+    targets: '.button',
+    opacity: 1,
+    duration: 2000,
+    easing: 'easeInExpo'
+  });
+  
+
    
