@@ -67,8 +67,8 @@ anime.timeline({loop: false})
     easing: 'easeInExpo',
     delay: 2000
   }).add({
-    // Fade in Cross Button
-    targets: '.box-2',
+    // Fade in Zoom Button
+    targets: '.box-1',
     opacity: { value: 1, duration: 2500, easing: 'easeInOutQuad', delay:200}
     // fade in Spin Button
   // targets: '.button',

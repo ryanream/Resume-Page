@@ -66,7 +66,7 @@ body {
 }
 
 /*************  Spin Button *************/
-/*From CodePen user ** Alex Loomer ** */
+/* From CodePen user - Alex Loomer */
 
 /*.button {*/
 /*  opacity: 0;*/
@@ -135,16 +135,99 @@ body {
 
 
 /*************  Cross Button *************/
-/* ** From CodePen user Dronca Raul ** */
+/* From CodePen user - Dronca Raul */
 
-.box-2 {
+/*.box-2 {*/
+/*	opacity: 0;*/
+/*	margin: auto;*/
+/*	width: 600px; */
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  background-color: #3C3C3C;*/
+/*}*/
+
+/*.btn {*/
+/*	line-height: 50px;*/
+/*	height: 50px;*/
+/*	text-align: center;*/
+/*	width: 350px;*/
+/*	cursor: pointer;*/
+/*	color: #FFF;*/
+/*	transition: all 0.5s;*/
+/*	position: relative;	*/
+/*}*/
+/***************************/
+/*.btn-two {*/
+/*	color: #FFF;*/
+/*	transition: all 0.5s;*/
+/*	position: relative;	*/
+/*}*/
+/*a:link, a:visited {*/
+/*  color: white;*/
+/*  text-decoration: none;*/
+/*}*/
+
+/*.btn-two span {*/
+/*  font-family: 'Gruppo', cursive;*/
+/*  font-size: 32;*/
+/*	z-index: 2;	*/
+/*	display: block;*/
+/*	position: absolute;*/
+/*	width: 100%;*/
+/*	height: 100%;	*/
+/*}*/
+/*.btn-two::before {*/
+/*	content: '';*/
+/*	position: absolute;*/
+/*	top: 0;*/
+/*	left: 0;*/
+/*	width: 100%;*/
+/*	height: 100%;*/
+/*	z-index: 1;*/
+/*	transition: all 0.5s;*/
+	/*border: 1px solid rgba(0,0,0,0.2);*/
+	/*background-color: rgba(0,0,0,0.1);*/
+/*	border: 1px solid rgba(255,255,255,0.2);*/
+/*	background-color: rgba(255,255,255,0.1);*/
+/*}*/
+/*.btn-two::after {*/
+/*	content: '';*/
+/*	position: absolute;*/
+/*	top: 0;*/
+/*	left: 0;*/
+/*	width: 100%;*/
+/*	height: 100%;*/
+/*	z-index: 1;*/
+/*	transition: all 0.5s;*/
+	/*border: 1px solid rgba(0,0,0,0.2);*/
+	/*background-color: rgba(0,0,0,0.1);*/
+/*	border: 1px solid rgba(255,255,255,0.2);*/
+/*	background-color: rgba(255,255,255,0.1);*/
+/*}*/
+/*.btn-two:hover::before {*/
+/*  transform: rotate(-45deg);*/
+/*  background-color: rgba(0,0,0,.5);*/
+/*}*/
+/*.btn-two:hover::after {*/
+/*  transform: rotate(45deg);*/
+/*  background-color: rgba(0,0,0,.5);*/
+/*}*/
+
+/*End Cross Button*/
+
+/* Begin Zoom Button*/
+/* From CodePen user - Dronca Raul */
+
+.box-1 {
 	opacity: 0;
 	margin: auto;
 	width: 600px; 
+	height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3C3C3C;
+  background-color: #428bca;
 }
 
 .btn {
@@ -157,18 +240,21 @@ body {
 	transition: all 0.5s;
 	position: relative;	
 }
-/***************************/
-/*.btn-two {*/
-/*	color: #FFF;*/
-/*	transition: all 0.5s;*/
-/*	position: relative;	*/
-/*}*/
+
+/*****************************/
+
+.btn-one {
+	color: #FFF;
+	transition: all 0.3s;
+	position: relative;
+}
 a:link, a:visited {
   color: white;
   text-decoration: none;
 }
 
-.btn-two span {
+.btn-one span {
+  transition: all 0.3s;
   font-family: 'Gruppo', cursive;
   font-size: 32;
 	z-index: 2;	
@@ -177,45 +263,49 @@ a:link, a:visited {
 	width: 100%;
 	height: 100%;	
 }
-.btn-two::before {
+
+.btn-one::before {
 	content: '';
 	position: absolute;
-	top: 0;
+	bottom: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	transition: all 0.5s;
-	/*border: 1px solid rgba(0,0,0,0.2);*/
-	/*background-color: rgba(0,0,0,0.1);*/
-	border: 1px solid rgba(255,255,255,0.2);
-	background-color: rgba(255,255,255,0.1);
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
 }
-.btn-two::after {
+.btn-one:hover span {
+	letter-spacing: 2px;
+}
+.btn-one:hover::before {
+	opacity: 1;	
+	transform: scale(1, 1);	
+}
+.btn-one::after {
 	content: '';
 	position: absolute;
-	top: 0;
+	bottom: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	transition: all 0.5s;
-	/*border: 1px solid rgba(0,0,0,0.2);*/
-	/*background-color: rgba(0,0,0,0.1);*/
-	border: 1px solid rgba(255,255,255,0.2);
+	transition: all 0.3s;
 	background-color: rgba(255,255,255,0.1);
 }
-.btn-two:hover::before {
-  transform: rotate(-45deg);
-  background-color: rgba(0,0,0,.5);
-}
-.btn-two:hover::after {
-  transform: rotate(45deg);
-  background-color: rgba(0,0,0,.5);
+.btn-one:hover::after {
+	opacity: 0;	
+	transform: scale(0.1, 1);
 }
 
-/*End Cross Button*/
-
+/*End Zoom Button*/
 
 /* button drop down tab from https://tobiasahlin.com/ */
 
