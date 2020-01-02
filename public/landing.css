@@ -248,15 +248,13 @@ body {
 	transition: all 0.3s;
 	position: relative;
 }
-a:link, a:visited {
-  color: white;
-  text-decoration: none;
-}
 
 .btn-one span {
   transition: all 0.3s;
   font-family: 'Gruppo', cursive;
   font-size: 32;
+  color: white;
+  text-decoration: none;
 	z-index: 2;	
 	display: block;
 	position: absolute;

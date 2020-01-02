@@ -1,4 +1,4 @@
-// This code is from https://tobiasahlin.com/moving-letters/
+// This code was adapted from https://tobiasahlin.com/moving-letters/
 
 //Lines stretch and move to reveal name
 anime.timeline({loop: false})
