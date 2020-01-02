@@ -66,6 +66,7 @@ body {
 }
 
 /*************  Spin Button *************/
+/*From CodePen user ** Alex Loomer ** */
 
 /*.button {*/
 /*  opacity: 0;*/
@@ -134,6 +135,8 @@ body {
 
 
 /*************  Cross Button *************/
+/* ** From CodePen user Dronca Raul ** */
+
 .box-2 {
 	opacity: 0;
 	margin: auto;
@@ -215,6 +218,8 @@ a:link, a:visited {
 
 
 /* button drop down tab from https://tobiasahlin.com/ */
+
+
 /*.grid-item-button-label {*/
 /*    transform: translateY(-15px);*/
 /*    transition: transform 0.35s cubic-bezier(0.19, 1, 0.22, 1) 0.1s,opacity 0.35s cubic-bezier(0.19, 1, 0.22, 1) 0.1s;*/

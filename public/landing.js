@@ -1,5 +1,6 @@
 // This code is from https://tobiasahlin.com/moving-letters/
 
+//Lines stretch and move to reveal name
 anime.timeline({loop: false})
   .add({
     delay: 750,
@@ -48,6 +49,8 @@ anime.timeline({loop: false})
     // delay: 1000
   });
   
+  //thank you for visiting message fades in
+  //name and thanks fade out
   anime.timeline({loop:false})
   .add({
     // fade in thank you message 
